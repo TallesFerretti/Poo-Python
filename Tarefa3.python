@@ -6,4 +6,10 @@ def numeros(n):
         print(lst[x])
     return 0
 
+def numeros2(n):
+    for x in range(len(lst)):
+        if vet[x] == n:
+            return x
+    return 0
+
 numeros(123)
